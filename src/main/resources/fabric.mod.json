@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "thepond-hopperfix",
+  "version": "${version}",
+  "name": "The Pond Hopper Fix",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/thepond-hopperfix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.danielvip3.ThePondHopperFix"
+    ]
+  },
+  "mixins": [
+    "thepond-hopperfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
